@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactUs.css">
+    <title>Contact</title>
+</head>
+<body>
+
+    <section class="top-nav">
+        <h1>Contact Us</h1>
+        
+        <div class="dropdown-menu">
+            <button class="dropBtn" id="myBtn">Search</button>
+            <div class="hideDropdown-content" id="myDropDown">
+                <a href="index.html">Home</a>
+                <a href="Room-Booking.html">Booking</a>
+                <a href="Contact-Us.html">Contact</a>
+            </div>
+        </div>
+    </section>
+    <br>
+    <p>
+        Language: En <br>
+        For complain or other reasons, you can fill in the form
+        below and send it to us.
+    </p>
+
+    <br>
+
+    <form>
+        <fieldset>
+            <label for="name">Full name:</label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="Write your name">
+            <br><br>
+
+            <label for="email">E-mail:</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Write your e-mail">
+            <br><br>
+
+            <label for="tele">Phonenumber:</label>
+            <br>
+            <input type="tel" name="tele" id="tele" placeholder="Write your phonenumber">
+            <br><br>
+
+            <input type="radio" name="customer" id="Book-room" value="Book-room">
+            <label for="Book-room">Book a room</label>
+            <br>
+            <input type="radio" name="customer" id="Unbook-room" value="Unbook-room">
+            <label for="Unbook-room">Unbook a room</label>
+            <br>
+            <input type="radio" name="customer" id="Others" value="Others">
+            <label for="Others">Others</label>
+            <br><br>
+
+            <label for="message">Type in more of why you're contacting us:</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here..."></textarea>
+            <br><br>
+
+            <p>
+                You confirm that you have read the conditions that the hotel
+                won't share your personal information with any third party.
+            </p>
+            <br>
+            <input type="checkbox" name="policy" id="policy" required>
+            <label for="policy">I approve</label> 
+            <br><br>
+
+            <input type="submit" value="Send form">
+        </fieldset>
+    </form>
+
+    <br>
+
+    <section>
+        <article class="contact-info">
+            <h2>Contactinformation</h2>
+            <br>
+            <p>Address:
+                <br>
+                <a href="https://www.google.se/maps/place/S+Sound+Rd,+George+Town,+Cayman%C3%B6arna/@19.2759909,-81.3615737,528m/data=!3m2!1e3!4b1!4m5!3m4!1s0x8f25860c95dfdf43:0x449c38603cef0a6d!8m2!3d19.2759404!4d-81.3604736?hl=sv&authuser=0">S Sound Rd, George Town, CaymanIslands</a>
+                <br><br>
+                Phonenumber:
+                <br>
+                <a href="+46702379787">+555321926</a>
+                <br><br>
+                Send an e-mail to our customer service here:
+                <br>
+                <a href="https://outlook.office.com/mail/">heaven.hotel@gmail.service.com</a>
+            </p>
+        </article>  
+    </section>
+
+    <div class="row">
+        <img id="logo-icon" src="images/Hotel_logo.png" title="Heaven hotel" alt="Heaven_hotel_logo">
+        <img id="logo-icon" src="images/twitter_loggo.png" title="Twitter" alt="Twitter_logo">
+        <img id="logo-icon" src="images/instagram_logo.png" title="Instagram" alt="Instagram_logo">
+        <img id="logo-icon" src="images/facebook_logo.png" title="Facebook" alt="Facebook_logo">
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
